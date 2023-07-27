@@ -157,9 +157,9 @@
             </div>
           </div>
           <div class='col'>
-            <div class='card mb-4 rounded-3 shadow-sm'>
-              <div class='card-header py-3'>
-                <h4 class='my-0 fw-normal'>Community</h4>
+            <div class='card mb-4 rounded-3 shadow-sm border-success'>
+              <div class='card-header py-3 text-bg-success border-success position-relative'>
+                <h4 class='my-0 fw-normal'>Community<span class='position-absolute top-0 start-50 translate-middle badge rounded-pill bg-danger fs-6'>Popular</span></h4>
               </div>
               <div class='card-body'>
                 <h1 class='card-title pricing-card-title'><sup class='text-body-secondary fw-light fs-5'>RM</sup> 1,000 <sub class='text-body-secondary fw-light fs-5'>/year</sub></h1>
@@ -172,8 +172,8 @@
           </div>
           <div class='col'>
             <div class='card mb-4 rounded-3 shadow-sm border-primary'>
-              <div class='card-header py-3 text-bg-primary border-primary'>
-                <h4 class='my-0 fw-normal'>Enterprise</h4>
+              <div class='card-header py-3 text-bg-primary border-primary position-relative'>
+                <h4 class='my-0 fw-normal'>Enterprise<span class='position-absolute top-0 start-50 translate-middle badge rounded-pill bg-success fs-6'>RECOMENDED</span></h4>
               </div>
               <div class='card-body'>
                 <h1 class='card-title pricing-card-title'><sup class='text-body-secondary fw-light fs-5'>RM</sup> 2,000 <sub class='text-body-secondary fw-light fs-5'>/year</sub></h1>
@@ -199,45 +199,45 @@
             <tbody>
               <tr>
                 <th scope='row' class='text-start'>Low Latency</th>
-                <td><i class='bi-check'></i></td>
-                <td><i class='bi-check'></i></td>
-                <td><i class='bi-check'></i></td>
+                <td><i class='bi-check-lg'></i></td>
+                <td><i class='bi-check-lg'></i></td>
+                <td><i class='bi-check-lg'></i></td>
               </tr>
               <tr>
                 <th scope='row' class='text-start'>99% Uptime</th>
-                <td><i class='bi-check'></i></td>
-                <td><i class='bi-check'></i></td>
-                <td><i class='bi-check'></i></td>
+                <td><i class='bi-check-lg'></i></td>
+                <td><i class='bi-check-lg'></i></td>
+                <td><i class='bi-check-lg'></i></td>
               </tr>
               <tr>
                 <th scope='row' class='text-start'>Shared Host</th>
-                <td><i class='bi-check'></i></td>
-                <td><i class='bi-check'></i></td>
-                <td><i class='bi-check'></i></td>
+                <td><i class='bi-check-lg'></i></td>
+                <td><i class='bi-check-lg'></i></td>
+                <td><i class='bi-check-lg'></i></td>
               </tr>
               <tr>
                 <th scope='row' class='text-start'>File Transfer</th>
                 <td></td>
-                <td><i class='bi-check'></i></td>
-                <td><i class='bi-check'></i></td>
+                <td></td>
+                <td><i class='bi-check-lg'></i></td>
               </tr>
               <tr>
                 <th scope='row' class='text-start'>Video Conference</th>
                 <td></td>
-                <td><i class='bi-check'></i></td>
-                <td><i class='bi-check'></i></td>
+                <td></td>
+                <td><i class='bi-check-lg'></i></td>
               </tr>
               <tr>
                 <th scope='row' class='text-start'>Audio Bot</th>
                 <td></td>
                 <td></td>
-                <td><i class='bi-check'></i></td>
+                <td><i class='bi-check-lg'></i></td>
               </tr>
               <tr>
                 <th scope='row' class='text-start'>Custom Domain Name</th>
                 <td></td>
                 <td></td>
-                <td><i class='bi-check'></i></td>
+                <td><i class='bi-check-lg'></i></td>
               </tr>
             </tbody>
 
@@ -316,12 +316,15 @@
         </div>
       </div>
     </main>    
-    <button id='scrollToTop' class='btn position-sticky bottom-0 start-0'><i class='bi-arrow-up-square fs-1'></i></button>
-    <footer class='footer page-footer font-small bg-body-tertiary text-center sticky-bottom'>
+    <button id='scrollToTop' class='btn position-sticky bottom-0 start-0 z-3'><i class='bi-arrow-up-square fs-1'></i></button>
+    <footer class='footer page-footer font-small bg-body-tertiary text-center sticky-bottom z-0'>
       <div class='container'>
         <div class='row d-flex align-items-center'>
           <div class='col mb-0 mt-3'>
-            <p class='text-center font-monospace user-select-none'><a href='https://www.roipmars.org.my/policies' class='text-reset text-decoration-none pe-none'>Terms of Service</a><span class='text-body-tertiary'> &#124; <i class='fa-solid fa-code'></i> <i class='fa-brands fa-github'></i> <i class='fa-brands fa-windows'></i> <i class='fa-brands fa-linux'></i> <i class='fa-brands fa-android'></i> <i class='fa-brands fa-teamspeak'></i> &#124; &copy; 2018&ndash;<script>document.write(new Date().getFullYear())</script> ROIPMARS&trade;</span></p>
+            <p class='text-center font-monospace user-select-none fs-5'>
+            <span class='text-body-tertiary'><i class='fa-solid fa-code'></i> <i class='fa-brands fa-github'></i> <i class='fa-brands fa-windows'></i> <i class='fa-brands fa-linux'></i> <i class='fa-brands fa-android'></i> <i class='fa-brands fa-teamspeak'></i> &#124; <a class='text-reset text-decoration-none' href='https://fb.me/roipmarsnetwork'><i class='bi-facebook mx-2' style='color: #0165E1'></i></a><a class='text-reset text-decoration-none' href='https://bit.ly/448EkGn'><i class='bi-youtube mx-2' style='color: #FF0000'></i></a><a class='text-reset text-decoration-none' href='https://discord.gg/ExEEGhgaWx'><i class='bi-discord mx-2' style='color: #5865F2'></i></a><a class='text-reset text-decoration-none' href='https://t.me/roipmarsnetwork'><i class='bi-telegram mx-2' style='color: #27A7E7'></i></a></span>
+            <br>
+            <a href='https://www.roipmars.org.my/policies' class='text-reset text-decoration-none'>Terms of Service</a> &#124; &copy; 2018&ndash;<script>document.write(new Date().getFullYear())</script> RoIPMARS&trade;</p>
           </div>
         </div>
       </div>
